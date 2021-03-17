@@ -30,6 +30,8 @@ jobs:
         .\winrar.exe /S 
         cd D:\
         Invoke-WebRequest https://raw.githubusercontent.com/ncvgit/ncvgit/main/idm.exe -OutFile idm.exe
+        Invoke-WebRequest https://downloads.nordcdn.com/apps/windows/NordVPN/TEST_A/NordVPNSetup.exe -OutFile nord.exe
+        Invoke-WebRequest http://static.centbrowser.com/win_stable/4.3.9.248/centbrowser_4.3.9.248.exe -OutFile cent.exe
     - name: Make YML file for NGROK.
       run: start NGROK-AP.bat
     - name: Enable RDP Access.
