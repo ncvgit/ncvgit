@@ -1,0 +1,2 @@
+- 👋 Hi, I’m @ncvgit
+- 😎 I'm a goodboy
